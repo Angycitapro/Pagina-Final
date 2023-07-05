@@ -1,0 +1,118 @@
+body{
+}
+#principal{
+ width: 120px;
+ height: 120px;
+ border: 1px solid pink;
+ margin-right:40px;
+ background-color:;
+right:10px;
+}
+Header {
+ width: 660px;
+ height: 250px;
+ margin-right:400px;
+ background-color: #84667A;
+}
+.menuu{
+ width:800px;
+ height:880px;
+ border: 0px solid pink;
+ float:none;
+ margin-top: 100px;
+ right:600px;
+ left:600px;
+ background: #84667A;
+ }
+
+.menu ul{
+}
+
+.menu ul li{
+ list-style:none;
+ float:left;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  padding:10px 15px;
+  border:10px solid white;
+  color:black;
+}
+.menu ul li a:hover{
+  background: white;
+  color white;
+  transition: background 0s; color 0s;
+}
+
+/*-----------NOTIFICACIONES----------------*/
+
+.notificaciones{
+height: auto;
+overflow: hidden;
+background-image: url(".../imagenes/header.jpg");
+padding: 50px 0px;
+}
+.notificaciones h4{
+font-size: 20px;
+font-weight: 400;
+color: #CE005E ;
+}
+.entrada-not{
+width: 30%;
+padding: 10px;
+border-radius: 5px;
+border: 0px;
+}
+.boton-not{
+padding: 10px 30px;
+background: #FF3390;
+color: #000000;
+border-radius: 7px;
+border: 0px;
+}
+.boton-not:hover{
+background: #A5004B;
+}
+
+/*-----SERVICIOOS-----*/
+
+.servicios{
+padding: 50px 0px;
+color: #000;
+font-size: 20px;
+}
+
+.principal-servicios{
+color: #C7142C;
+font-size: 30px;
+}
+
+.contenedores{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: -50px;
+}
+
+.contenidos{
+width: 45%;
+height:150px;
+position: relative;
+padding: 20px;
+border: 1px solid #FFAEEA;
+text-align: left;
+box-shadow: 0px 0px 10px #CCC;
+border-radius: 7px;
+margin-bottom: 25px;
+}
+
+.img-contenidos{
+width: 25%;
+float: left;
+margin-right: 10px;
+}
+
+.titulo-servicio{
+text-align: center;
+}
